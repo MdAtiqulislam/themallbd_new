@@ -1,0 +1,2 @@
+/Users/revinar/AndroidStudioProjects/themallbd_new/android/app/.cxx/RelWithDebInfo/6e6wp1r3/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/revinar/AndroidStudioProjects/themallbd_new/android/app/.cxx/RelWithDebInfo/6e6wp1r3/arm64-v8a/CMakeFiles/rebuild_cache.dir

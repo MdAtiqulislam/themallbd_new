@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "174086628924",
+    "project_id": "themall-361715",
+    "storage_bucket": "themall-361715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174086628924:android:361b0a08dc9846442d8539",
+        "android_client_info": {
+          "package_name": "com.themallbd.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174086628924-arp35h938idoqjim0jbt3lam2mbdtrmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.themallbd.mobileapp",
+            "certificate_hash": "c00cc4cb8dfc9dbf9ee023a32887eff0cb6a0aff"
+          }
+        },
+        {
+          "client_id": "174086628924-hfcnr85titqm9t07tjo2l7r36hbiq81p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.themallbd.mobileapp",
+            "certificate_hash": "03dd138161bd9a54fb70fc36927bfe3a66e81201"
+          }
+        },
+        {
+          "client_id": "174086628924-8sudgvf9rqm2f7f7mb2anhc9h4v8ab9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjvZ1rFoAu6glMq32p-YKDlDhNgxgRUi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174086628924-8sudgvf9rqm2f7f7mb2anhc9h4v8ab9j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174086628924-40f9ce3gphgvkomajkbsrd133054p5aq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.themallbd.mobileapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174086628924:android:1bb15153a631483f2d8539",
+        "android_client_info": {
+          "package_name": "com.themallbd.themallbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174086628924-2v28n692ql4pa48vo90ddp4vlppo0h6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.themallbd.themallbd",
+            "certificate_hash": "03dd138161bd9a54fb70fc36927bfe3a66e81201"
+          }
+        },
+        {
+          "client_id": "174086628924-rvvcehg489rbdvl7ne2k4g78od30t8vl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.themallbd.themallbd",
+            "certificate_hash": "c00cc4cb8dfc9dbf9ee023a32887eff0cb6a0aff"
+          }
+        },
+        {
+          "client_id": "174086628924-8sudgvf9rqm2f7f7mb2anhc9h4v8ab9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjvZ1rFoAu6glMq32p-YKDlDhNgxgRUi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174086628924-8sudgvf9rqm2f7f7mb2anhc9h4v8ab9j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174086628924-40f9ce3gphgvkomajkbsrd133054p5aq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.themallbd.mobileapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
