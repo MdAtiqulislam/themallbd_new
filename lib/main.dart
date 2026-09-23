@@ -59,19 +59,22 @@ void main() async {
   Get.put(DeepLinkController());
 
 
+  // Firebase config is intentionally NOT committed.
+  // Run `flutterfire configure` to generate your own options, e.g.:
+  //   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await Firebase.initializeApp(
     name: "TheMallBd", // Consider removing this if you don't need a named instance
     options: (Platform.isIOS || Platform.isMacOS)
         ? const FirebaseOptions(
-        apiKey: "AIzaSyAZaZjkPjAiYtHClcW61tSFa8pliszzh7o",
-        appId: "1:174086628924:ios:5ad4260d24f34d262d8539",
-        messagingSenderId: "174086628924",
-        projectId: "themall-361715")
+        apiKey: "YOUR_IOS_API_KEY",
+        appId: "YOUR_IOS_APP_ID",
+        messagingSenderId: "YOUR_SENDER_ID",
+        projectId: "YOUR_PROJECT_ID")
         :const FirebaseOptions(
-      apiKey: 'AIzaSyCjvZ1rFoAu6glMq32p-YKDlDhNgxgRUi0',
-      appId: '1:174086628924:android:361b0a08dc9846442d8539',
-      messagingSenderId: '174086628924',
-      projectId: "themall-361715",
+      apiKey: 'YOUR_ANDROID_API_KEY',
+      appId: 'YOUR_ANDROID_APP_ID',
+      messagingSenderId: 'YOUR_SENDER_ID',
+      projectId: "YOUR_PROJECT_ID",
     ),
   );
  // await Get.put(HomePageDataController()).initDynamicLinks();
