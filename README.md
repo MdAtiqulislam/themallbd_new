@@ -1,16 +1,48 @@
-# themallbd_new
+# The Mall (themallbd_new)
 
-A new Flutter project.
+A Flutter e-commerce storefront for The Mall Bangladesh — browse products and shop from your phone.
+
+## Features
+
+- Home storefront with product browsing
+- Modular views with shared widgets
+- Theming, controllers and services for catalog, cart and checkout flows
+- Utilities and constraints for consistent UI
+
+## Tech Stack
+
+- Flutter (Dart)
+- GetX-style controllers with modular views
+- REST API backend
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+Build a release APK:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter build apk --release
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```
+lib/
+├── app/          # App-level setup (routes, bindings)
+├── views/        # Feature screens (incl. home)
+├── widgets/      # Reusable widgets
+├── controllers/  # Business logic
+├── models/       # Data models
+├── services/     # API and platform services
+├── theme/        # App theme
+└── main.dart     # App entry point
+```
+
+## Notes
+
+- App label: "The Mall" (Android), title "The Mall"
+- No secrets or keystores are committed to this repository.
